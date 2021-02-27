@@ -61,7 +61,7 @@
   background: var(--blue-dark);
 }
 
-.startCountdownButtonActive {
+.startCountdownButtonActive:not(:disabled) {
   background-color: var(--white);
   color: var(--title);
 }
